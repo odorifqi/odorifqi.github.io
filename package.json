@@ -1,0 +1,50 @@
+{
+  "name": "case-studies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --config build-utils/webpack.config.js --env env=dev",
+    "build": "webpack --config build-utils/webpack.config.js --env env=prod",
+    "build:analyze": "npm run build -- --env addon=bundleanalyze",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.5.1",
+    "dotenv-webpack": "^7.0.3",
+    "eslint": "^8.3.0",
+    "eslint-plugin-react": "^7.27.1",
+    "html-webpack-plugin": "^5.5.0",
+    "react-hot-loader": "^4.13.0",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.2",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odorifqi/react-webpack-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/odorifqi/react-webpack-template/issues"
+  },
+  "homepage": "https://github.com/odorifqi/react-webpack-template#readme"
+}
