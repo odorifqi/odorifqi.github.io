@@ -6,7 +6,7 @@ console.log(`You're in ${process.env.NODE_ENV} mode`);
 function App() {
   return (
     <React.Fragment>
-      <h1 className={s.blue}>Hello World</h1>
+      <h1 className={s.blue}>Case Studies</h1>
     </React.Fragment>
   );
 }
