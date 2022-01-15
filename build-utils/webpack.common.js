@@ -45,7 +45,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: "React Template",
+      title: "ODORIFQI",
       template: path.resolve(__dirname, "..", "./src/index.html"),
     }),
   ],
