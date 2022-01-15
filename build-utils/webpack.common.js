@@ -50,10 +50,10 @@ module.exports = {
     }),
   ],
   output: {
-    path: path.resolve(__dirname, "..", "./dist"),
+    path: path.resolve(__dirname, "..", "./docs"),
     filename: "bundle.js",
   },
   devServer: {
-    static: path.resolve(__dirname, "..", "./dist"),
+    static: path.resolve(__dirname, "..", "./docs"),
   },
 };
