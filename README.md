@@ -1,1 +1,1 @@
-This is my webpage for my UI/UX explorations
+This webpage made for my portfolio

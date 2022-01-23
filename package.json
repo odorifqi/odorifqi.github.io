@@ -38,14 +38,15 @@
     "axios": "^0.24.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-github-btn": "^1.2.1",
     "regenerator-runtime": "^0.13.9"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/odorifqi/react-webpack-template.git"
+    "url": "git+https://github.com/odorifqi/odorifqi.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/odorifqi/react-webpack-template/issues"
+    "url": "https://github.com/odorifqi/odorifqi.github.io/issues"
   },
-  "homepage": "https://github.com/odorifqi/react-webpack-template#readme"
+  "homepage": "https://github.com/odorifqi/odorifqi.github.io#readme"
 }
