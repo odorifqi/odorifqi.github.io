@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   /* outline: 1px solid black; */
+  background-color: rgb(34, 33, 33);
 }
 
 body {
@@ -27,14 +28,16 @@ code {
 
 .title {
   font-size: 4em;
-  color: rgb(0, 20, 202);
+  color: rgb(255, 255, 255);
   text-align: center;
   margin-block-end: 0;
+  font-weight: 400;
 }
 
 .subTitle {
   margin-block-start: 0.5em;
-  color: rgb(192, 191, 191);
+  color: rgb(119, 110, 110);
+  font-weight: 400;
 }
 
 .container > ul {
@@ -44,10 +47,11 @@ code {
 
 .container > ul > li {
   list-style-type: none;
-  margin: 0.5em;
+  margin: 0.75em;
 }
 
 a {
+  color: rgb(159, 159, 255);
   text-decoration: none;
 }
 
@@ -56,14 +60,16 @@ a {
 }
 
 .dotcom {
+  background-color: inherit;
   font-size: 1rem;
-  color: rgb(250, 170, 170);
+  color: rgb(179, 120, 120);
 }
 
 .linkDiv {
-  border: 1px solid rgb(250, 170, 170);
-  background-color: rgb(255, 255, 245);
+  border: 1px solid rgb(158, 145, 145);
+  background-color: rgb(82, 82, 77);
   padding: 0.5em 1em;
+  box-shadow: 3px 2px 3px 0px rgb(128, 120, 120);
 }
 
 .linkDiv:hover {
@@ -78,6 +84,10 @@ a {
   align-items: center;
 }
 
+.footerText {
+  color: rgb(119, 110, 110);
+}
+
 @media only screen and (max-width: 500px) {
   .header {
     height: 20vh;
@@ -85,7 +95,7 @@ a {
 
   .title {
     font-size: 2rem;
-    color: rgb(20, 20, 196);
+
     text-align: center;
   }
   .contactLink {
