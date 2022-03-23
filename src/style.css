@@ -1,10 +1,10 @@
 * {
   box-sizing: border-box;
-  /* outline: 1px solid black; */
-  background-color: rgb(34, 33, 33);
+  /* outline: 1px solid white; */
 }
 
 body {
+  background-color: rgb(10, 10, 10);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -36,7 +36,7 @@ code {
 
 .subTitle {
   margin-block-start: 0.5em;
-  color: rgb(119, 110, 110);
+  color: rgb(152, 155, 157);
   font-weight: 400;
 }
 
@@ -48,44 +48,42 @@ code {
 .container > ul > li {
   list-style-type: none;
   margin: 0.75em;
+  text-align: center;
 }
 
 a {
-  color: rgb(159, 159, 255);
   text-decoration: none;
 }
 
 .contactLink {
-  font-size: 1.5rem;
-}
-
-.dotcom {
-  background-color: inherit;
+  color: rgba(42, 131, 235, 1);
   font-size: 1rem;
-  color: rgb(179, 120, 120);
 }
 
-.linkDiv {
-  border: 1px solid rgb(158, 145, 145);
-  background-color: rgb(82, 82, 77);
-  padding: 0.5em 1em;
-  box-shadow: 3px 2px 3px 0px rgb(128, 120, 120);
-}
-
-.linkDiv:hover {
-  background-color: rgb(255, 234, 234);
+.contactLink:hover {
+  color: rgba(22, 102, 196, 1);
+  background-color: rgb(28, 28, 30);
 }
 
 .footer {
+  position: absolute;
+  bottom: 0;
   height: 30vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #000000;
 }
 
 .footerText {
   color: rgb(119, 110, 110);
+}
+
+.contactRow {
+  /* background-color: white; */
+  display: flex;
 }
 
 @media only screen and (max-width: 500px) {
@@ -95,21 +93,22 @@ a {
 
   .title {
     font-size: 2rem;
-
     text-align: center;
   }
   .contactLink {
-    font-size: 1.25rem;
-  }
-  .dotcom {
-    font-size: 0.65em;
-  }
-
-  .footer {
-    height: 20vh;
+    font-size: 1rem;
   }
 
   .subTitle {
     font-size: 1rem;
+  }
+
+  .contactRow {
+    display: block;
+  }
+
+  .footer {
+    padding: 1rem 0 2rem 0;
+    height: max-content;
   }
 }

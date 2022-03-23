@@ -5,10 +5,9 @@ function ContactList({ title, url, handle = "" }) {
   return (
     <li>
       <a className={s.contactLink} href={url} target="_blank">
-        <div className={s.linkDiv}>
-          {title}
-          <span className={s.dotcom}>{handle}</span>
-        </div>
+        {/* <div className={s.linkDiv}></div> */}
+        {title}
+        {/* <span className={s.dotcom}>{handle}</span> */}
       </a>
     </li>
   );
@@ -17,7 +16,8 @@ function ContactList({ title, url, handle = "" }) {
 export default function Contact() {
   return (
     <section className={s.container}>
-      <ul>
+      {/* <h3 className={s.subTitle}>Let's Collaborate!</h3> */}
+      <ul className={s.contactRow}>
         <ContactList
           url="mailto:odorifqi@gmail.com"
           title="odorifqi@gmail.com"
@@ -25,37 +25,37 @@ export default function Contact() {
 
         <ContactList
           url="https://medium.com/@odorifqi"
-          title="medium"
+          title="Medium"
           handle=".com/@odorifqi"
         />
 
         <ContactList
           url="https://behance.net/odorifqi"
-          title="behance"
+          title="Behance"
           handle=".net/odorifqi"
         />
 
         <ContactList
           url="https://dribbble.com/odorifqi"
-          title="dribbble"
+          title="Dribbble"
           handle=".com/odorifqi"
         />
 
         <ContactList
           url="https://linkedin.com/in/odorifqi"
-          title="linkedin"
+          title="Linkedin"
           handle=".com/in/odorifqi"
         />
 
         <ContactList
           url="https://instagram.com/odorifqi"
-          title="instagram"
+          title="Instagram"
           handle=".com/odorifqi"
         />
 
         <ContactList
           url="https://twitter.com/odorifqi"
-          title="twitter"
+          title="Twitter"
           handle=".com/odorifqi"
         />
       </ul>

@@ -16,17 +16,21 @@ function App() {
       }}
     >
       <Header />
-      <Contact />
+      <Main />
       <Footer />
     </div>
   );
+}
+
+function Main() {
+  return <div>test</div>;
 }
 
 function Header() {
   return (
     <header className={s.header}>
       <h1 className={s.title}>Muhammad Rifqi</h1>
-      <h3 className={s.subTitle}>Hi! Page will be ready shortly.</h3>
+      <h3 className={s.subTitle}>Hi! Welcome to my personal page.</h3>
     </header>
   );
 }
@@ -34,9 +38,13 @@ function Header() {
 function Footer() {
   return (
     <footer className={s.footer}>
+      <Contact />
       <p className={s.footerText}>
         Run on{" "}
-        <a href="https://github.com/odorifqi/odorifqi.github.io">
+        <a
+          className={s.contactLink}
+          href="https://github.com/odorifqi/odorifqi.github.io"
+        >
           <strong>Github Pages</strong>
         </a>
       </p>
