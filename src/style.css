@@ -26,6 +26,19 @@ code {
   height: 30vh;
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+  /* height: 50vh; */
+  color: white;
+}
+
+.main > section {
+  /* width: 30vw; */
+  font-size: 1.75rem;
+  padding: 5rem 10rem 5rem 10rem;
+}
+
 .title {
   font-size: 4em;
   color: rgb(255, 255, 255);
@@ -66,10 +79,7 @@ a {
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
   height: 30vh;
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -89,6 +99,14 @@ a {
 @media only screen and (max-width: 500px) {
   .header {
     height: 20vh;
+  }
+
+  .main > section {
+    text-align: center;
+    width: 100vw;
+    font-size: 1.2rem;
+    padding: 3rem;
+    letter-spacing: 0.05rem;
   }
 
   .title {
