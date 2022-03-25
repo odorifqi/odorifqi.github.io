@@ -23,10 +23,7 @@ export default function Contact() {
           title="odorifqi@gmail.com"
         />
 
-        <ContactList
-          url="src/asset/CV_25-03-2022.pdf"
-          title="Curriculum Vitae"
-        />
+        <ContactList url="#" title="Curriculum Vitae" />
 
         <ContactList
           url="https://medium.com/@odorifqi"
