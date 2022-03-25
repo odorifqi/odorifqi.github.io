@@ -49,7 +49,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: "ODORIFQI",
+      title: "Welcome to Rifqi's personal page",
       template: path.resolve(__dirname, "..", "./src/index.html"),
     }),
   ],

@@ -5,9 +5,7 @@ function ContactList({ title, url, handle = "" }) {
   return (
     <li>
       <a className={s.contactLink} href={url} target="_blank">
-        {/* <div className={s.linkDiv}></div> */}
         {title}
-        {/* <span className={s.dotcom}>{handle}</span> */}
       </a>
     </li>
   );
@@ -16,11 +14,18 @@ function ContactList({ title, url, handle = "" }) {
 export default function Contact() {
   return (
     <section className={s.container}>
-      {/* <h3 className={s.subTitle}>Let's Collaborate!</h3> */}
+      <h3 className={s.subTitle} style={{ textAlign: "center" }}>
+        Let's Collaborate!
+      </h3>
       <ul className={s.contactRow}>
         <ContactList
           url="mailto:odorifqi@gmail.com"
           title="odorifqi@gmail.com"
+        />
+
+        <ContactList
+          url="src/asset/CV_25-03-2022.pdf"
+          title="Curriculum Vitae"
         />
 
         <ContactList

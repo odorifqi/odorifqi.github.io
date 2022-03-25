@@ -20,12 +20,11 @@ function Main() {
   return (
     <div className={s.main}>
       <section>
-        Greetings! I'm interested in User Interface development and currently
-        focusing my interest on UI/UX Design and also front-end Web Development
-        with ReactJS to implement my design works. I’m Looking forward to
-        stepping up the game. Feel free to check my social portfolio below for
-        my recent work, or hit my email and be friends, or maybe to collaborate!
-        Thanks for visiting!
+        I'm interested in User Interface development and currently focus on
+        UI/UX Design and also front-end Web Development with ReactJS to
+        implement my design works. I’m Looking forward to stepping up the game.
+        Feel free to check my social portfolio below for my recent work, or hit
+        my email and be friends, or maybe to collaborate! Thanks for visiting!
       </section>
     </div>
   );
@@ -34,8 +33,8 @@ function Main() {
 function Header() {
   return (
     <header className={s.header}>
-      <h1 className={s.title}>Muhammad Rifqi</h1>
-      <h3 className={s.subTitle}>Hi! Welcome to my personal page.</h3>
+      <h1 className={s.title}>Hi! I'm Rifqi.</h1>
+      <h3 className={s.subTitle}>Welcome to my personal page.</h3>
     </header>
   );
 }
