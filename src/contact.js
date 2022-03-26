@@ -15,7 +15,7 @@ export default function Contact() {
   return (
     <section className={s.container}>
       <h3 className={s.subTitle} style={{ textAlign: "center" }}>
-        Let's Collaborate!
+        Let's get in touch!
       </h3>
       <ul className={s.contactRow}>
         <ContactList
@@ -24,7 +24,7 @@ export default function Contact() {
         />
 
         <ContactList
-          url="https://github.com/odorifqi/odorifqi.github.io/blob/ec98da548718c3247cf2b9e31702d1fec91f069f/src/asset/CV%20M.%20Rifqi.pdf"
+          url="https://github.com/odorifqi/odorifqi.github.io/tree/main/src/cv_document"
           title="Curriculum Vitae"
         />
 
