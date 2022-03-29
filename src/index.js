@@ -20,11 +20,8 @@ function Main() {
   return (
     <div className={s.main}>
       <section>
-        I'm interested in User Interface development and currently focus on
-        UI/UX Design and also front-end Web Development with ReactJS to
-        implement my design works. I’m Looking forward to stepping up the game.
-        Feel free to check my social portfolio below for my recent work, or hit
-        my email and be friends, or maybe to collaborate! Thanks for visiting!
+        Indonesia-based with a background in computer science, interested and
+        focus on UI/UX design. Looking forward to step up the game.
       </section>
     </div>
   );
