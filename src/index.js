@@ -21,7 +21,9 @@ function Main() {
     <div className={s.main}>
       <section>
         Indonesia-based with a background in computer science, interested and
-        focus on UI/UX design. Looking forward to step up the game.
+        focus on UI/UX design. Looking forward to step up the game. Feel free to
+        check my social portfolio below for my recent work, or hit my email and
+        be friends, or maybe to collaborate! Thanks for visiting!
       </section>
     </div>
   );
