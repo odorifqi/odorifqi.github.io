@@ -21,7 +21,7 @@ function Main() {
     <div className={s.main}>
       <section>
         Indonesia-based with a background in computer science, interested and
-        focused on UI/UX design. Prioritizing user's experience, I'm Designing
+        focused on UI/UX design. Prioritizing user's experience, I'm designing
         to solve problems efficiently. Looking ahead to a further future, one
         small step at a time. Feel free to check my social portfolio below for
         my recent work, hit my email and be friends, or maybe collaborate!
