@@ -17,7 +17,7 @@ export default function Contact() {
       <ul className={s.contactRow}>
         <li style={{ color: "white" }}>odorifqi@gmail.com</li>
         <ContactList
-          url="https://github.com/odorifqi/odorifqi.github.io/tree/main/src/CV%20Rifqi"
+          url="https://drive.google.com/drive/folders/1M66ze5sgI_VnTAe6ox6vK_s06lDKnCjD?usp=sharing"
           title="Curriculum Vitae"
         />
         <ContactList url="https://medium.com/@odorifqi" title="Medium" />
