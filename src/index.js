@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import s from "./style.css";
 import GitHubButton from "react-github-btn";
 import Contact from "./contact";
+import s from "./style.css";
 
 console.log(`You're in ${process.env.NODE_ENV} mode`);
 
@@ -11,6 +11,7 @@ function App() {
     <div>
       <Header />
       <Main />
+      <Work />
       <Footer />
     </div>
   );
@@ -26,6 +27,36 @@ function Main() {
         step at a time. Feel free to check my social portfolio below for my
         recent work, hit my email and be friends, or maybe collaborate! Thanks
         for visiting!
+      </section>
+    </div>
+  );
+}
+
+function Work() {
+  return (
+    <div className={s.main}>
+      <section>
+        <strong>Latest Works</strong>
+        <ul>
+          <li>
+            <a
+              className={s.workLink}
+              target="_blank"
+              href="https://www.behance.net/gallery/134830501/BAXY-Workout-app-UIUX-Design-Case-Study"
+            >
+              BAXY (UI/UX Case Study)
+            </a>
+          </li>
+          <li>
+            <a
+              className={s.workLink}
+              target="_blank"
+              href="https://medium.com/design-bootcamp/what-is-gestalt-e3dec6733fe3?source=user_profile---------0-------------------------------"
+            >
+              What is gestalt? (Article in Medium)
+            </a>
+          </li>
+        </ul>
       </section>
     </div>
   );
