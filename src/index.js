@@ -24,9 +24,8 @@ function Main() {
         Indonesia-based with a background in computer science, interested and
         focused on UI/UX design. Prioritizing user experience, I'm designing to
         solve problems efficiently. Looking ahead to a further future, one small
-        step at a time. Feel free to check my social portfolio below for my
-        recent work, hit my email and be friends, or maybe collaborate! Thanks
-        for visiting!
+        step at a time. Explore my latest works below, feel free to hit my email
+        and be friends, or maybe collaborate! Thanks for visiting!
       </section>
     </div>
   );
@@ -42,18 +41,27 @@ function Work() {
             <a
               className={s.workLink}
               target="_blank"
-              href="https://www.behance.net/gallery/134830501/BAXY-Workout-app-UIUX-Design-Case-Study"
+              href="https://bootcamp.uxdesign.cc/titip-shopping-list-for-an-online-marketplace-case-sample-tokopedia-6b418a31e881"
             >
-              BAXY (UI/UX Case Study)
+              Marketplace feature: Titip (UI/UX Case Study)
             </a>
           </li>
           <li>
             <a
               className={s.workLink}
               target="_blank"
-              href="https://medium.com/design-bootcamp/what-is-gestalt-e3dec6733fe3?source=user_profile---------0-------------------------------"
+              href="https://www.behance.net/gallery/134830501/BAXY-Workout-app-UIUX-Design-Case-Study"
             >
-              What is gestalt? (Article in Medium)
+              Workout app: BAXY (UI/UX Case Study)
+            </a>
+          </li>
+          <li>
+            <a
+              className={s.workLink}
+              target="_blank"
+              href="https://bootcamp.uxdesign.cc/what-is-gestalt-e3dec6733fe3"
+            >
+              What is gestalt? (Article)
             </a>
           </li>
         </ul>

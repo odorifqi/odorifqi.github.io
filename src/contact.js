@@ -24,8 +24,6 @@ export default function Contact() {
         <ContactList url="https://behance.net/odorifqi" title="Behance" />
         <ContactList url="https://dribbble.com/odorifqi" title="Dribbble" />
         <ContactList url="https://linkedin.com/in/odorifqi" title="Linkedin" />
-        <ContactList url="https://instagram.com/odorifqi" title="Instagram" />
-        <ContactList url="https://twitter.com/odorifqi" title="Twitter" />
       </ul>
     </section>
   );
