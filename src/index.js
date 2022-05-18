@@ -21,11 +21,10 @@ function Main() {
   return (
     <div className={s.main}>
       <section>
-        Indonesia-based with a background in computer science, interested and
-        focused on UI/UX design. Prioritizing user experience, I'm designing to
-        solve problems efficiently. Looking ahead to a further future, one small
-        step at a time. Explore my latest works below, feel free to hit my email
-        and be friends, or maybe collaborate! Thanks for visiting!
+        Indonesia-based with a background in computer science, passionate about
+        UX design. Currently on a fantastic journey of exploring and learning
+        digital product design. Looking ahead to a further future, one small
+        step at a time.<div></div> Thanks for visiting!
       </section>
     </div>
   );
