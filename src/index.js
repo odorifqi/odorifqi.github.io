@@ -40,18 +40,18 @@ function Work() {
             <a
               className={s.workLink}
               target="_blank"
-              href="https://bootcamp.uxdesign.cc/titip-shopping-list-for-an-online-marketplace-case-sample-tokopedia-6b418a31e881"
+              href="https://bootcamp.uxdesign.cc/case-study-learn-create-mentor-in-workout-app-292d9509a8b9"
             >
-              Marketplace feature: Titip (UI/UX Case Study)
+              Workout app: BAXY (UI/UX Case Study)
             </a>
           </li>
           <li>
             <a
               className={s.workLink}
               target="_blank"
-              href="https://www.behance.net/gallery/134830501/BAXY-Workout-app-UIUX-Design-Case-Study"
+              href="https://bootcamp.uxdesign.cc/titip-shopping-list-for-an-online-marketplace-case-sample-tokopedia-6b418a31e881"
             >
-              Workout app: BAXY (UI/UX Case Study)
+              Marketplace feature: Titip (UI/UX Case Study)
             </a>
           </li>
           <li>
