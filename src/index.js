@@ -42,7 +42,7 @@ function Work() {
               target="_blank"
               href="https://bootcamp.uxdesign.cc/case-study-learn-create-mentor-in-workout-app-292d9509a8b9"
             >
-              Workout app: BAXY (UI/UX Case Study)
+              Case study: learn, create, mentor in workout app
             </a>
           </li>
           <li>
@@ -51,7 +51,7 @@ function Work() {
               target="_blank"
               href="https://bootcamp.uxdesign.cc/titip-shopping-list-for-an-online-marketplace-case-sample-tokopedia-6b418a31e881"
             >
-              Marketplace feature: Titip (UI/UX Case Study)
+              Case study: “Shopping list” for e-commerce
             </a>
           </li>
           <li>
