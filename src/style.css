@@ -48,9 +48,13 @@ code {
   font-weight: 400;
 }
 
+.intro{
+  color: #D7DCDF;
+}
+
 .subTitle {
   margin-block-start: 0.5em;
-  color: rgb(152, 155, 157);
+  color:#BABEC1;
   font-weight: 400;
 }
 
@@ -71,7 +75,12 @@ a {
 
 .contactLink {
   color: rgba(42, 131, 235, 1);
-  font-size: 1rem;
+  font-size: 1.25rem;
+}
+
+.contactNoLink {
+  color: rgb(255, 255, 255);
+  font-size: 1.25rem;
 }
 
 .contactLink:hover {
@@ -99,10 +108,15 @@ a {
 
 .footerText {
   color: rgb(119, 110, 110);
+  font-size: 1rem;
 }
 
 .contactRow {
   display: flex;
+}
+
+.workList li:not(:last-child) {
+  margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 500px) {
@@ -113,16 +127,13 @@ a {
   .main > section {
     height: max-content;
     font-size: 1.2rem;
-    padding: 3rem;
+    padding: 2rem;
     letter-spacing: 0.05rem;
   }
 
   .title {
     font-size: 2rem;
     text-align: center;
-  }
-  .contactLink {
-    font-size: 1rem;
   }
 
   .subTitle {
@@ -138,7 +149,15 @@ a {
     height: max-content;
   }
 
+  .contactRow li:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+
   .carous{
       font-size: 8px;
+    }
+
+    .workList li:not(:last-child) {
+      margin-bottom: 0.5rem;
     }
 }

@@ -20,11 +20,11 @@ function App() {
 function Main() {
   return (
     <div className={s.main}>
-      <section>
+      <section className={s.intro}>
         Indonesia-based with a background in computer science, passionate about
         UX design. Currently on a fantastic journey of exploring and learning
         digital product design. Looking ahead to a further future, one small
-        step at a time.<div></div> Thanks for visiting!
+        step at a time. Thanks for visiting!
       </section>
     </div>
   );
@@ -35,7 +35,7 @@ function Work() {
     <div className={s.main}>
       <section>
         <strong>Latest Works</strong>
-        <ul>
+        <ul className={s.workList}>
           <li>
             <a
               className={s.workLink}
@@ -72,8 +72,8 @@ function Work() {
 function Header() {
   return (
     <header className={s.header}>
-      <h1 className={s.title}>Hi! I'm Rifqi.</h1>
-      <h3 className={s.subTitle}>Welcome to my personal page.</h3>
+      <h1 className={s.title}>Muhammad Rifqi</h1>
+      <h3 className={s.subTitle}>Hi! welcome to my personal page.</h3>
     </header>
   );
 }
@@ -83,12 +83,13 @@ function Footer() {
     <footer className={s.footer}>
       <Contact />
       <p className={s.footerText}>
-        Run on{" "}
+        <span>Run on </span>
         <a
           className={s.contactLink}
+          style={{ fontSize: "1rem" }}
           href="https://github.com/odorifqi/odorifqi.github.io"
         >
-          <strong>Github Pages</strong>
+          Github Pages
         </a>
       </p>
       <GitHubButton
