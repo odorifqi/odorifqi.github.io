@@ -34,7 +34,7 @@ function Work() {
   return (
     <div className={s.main}>
       <section>
-        <strong>Latest Works</strong>
+        <strong>Selected Works</strong>
         <ul className={s.workList}>
           <li>
             <a
@@ -58,9 +58,18 @@ function Work() {
             <a
               className={s.workLink}
               target="_blank"
-              href="https://bootcamp.uxdesign.cc/what-is-gestalt-e3dec6733fe3"
+              href="https://www.behance.net/gallery/145149785/Information-System-Student-Management-UIUX-Design"
             >
-              What is gestalt? (Article)
+              UI Design: Information System - Student Management
+            </a>
+          </li>
+          <li>
+            <a
+              className={s.workLink}
+              target="_blank"
+              href="https://dribbble.com/shots/18395464-Schedule-an-Event-in-a-Chat-app"
+            >
+              UI Design: Schedule an event in a chat app
             </a>
           </li>
         </ul>
