@@ -8,10 +8,6 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(jpe?g|png|gif|svg)$/i,
-        use: ["url-loader"],
-      },
-      {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: ["babel-loader"],
@@ -25,6 +21,29 @@ module.exports = {
             loader: "css-loader",
             options: {
               modules: true,
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(png|jpg|gif)$/i,
+        use: [
+          {
+            loader: "url-loader",
+            options: {
+              limit: 8192,
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "[name].[ext]",
+              outputPath: "fonts/",
             },
           },
         ],
@@ -49,7 +68,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: "Welcome to Rifqi's personal page",
+      title: "Muhammad Rifqi | Personal Page",
       template: path.resolve(__dirname, "..", "./src/index.html"),
     }),
   ],

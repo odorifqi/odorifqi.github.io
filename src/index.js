@@ -4,6 +4,9 @@ import GitHubButton from "react-github-btn";
 import Contact from "./contact";
 import s from "./style.css";
 
+// import SimpleSlider from "./carousel";
+//  <SimpleSlider />
+
 console.log(`You're in ${process.env.NODE_ENV} mode`);
 
 function App() {
@@ -68,6 +71,15 @@ function Work() {
               className={s.workLink}
               target="_blank"
               href="https://dribbble.com/shots/18395464-Schedule-an-Event-in-a-Chat-app"
+            >
+              UI Design: Company website Landing Page
+            </a>
+          </li>
+          <li>
+            <a
+              className={s.workLink}
+              target="_blank"
+              href="https://www.behance.net/gallery/145777301/Company-website-UIUX-Design"
             >
               UI Design: Schedule an event in a chat app
             </a>
