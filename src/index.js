@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import GitHubButton from "react-github-btn";
 import Contact from "./contact";
+import WorkCardList from "./work";
 import s from "./style.css";
 
 // import SimpleSlider from "./carousel";
@@ -14,7 +15,7 @@ function App() {
     <div>
       <Header />
       <Main />
-      <Work />
+      <WorkCardList />
       <Footer />
     </div>
   );

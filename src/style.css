@@ -115,11 +115,74 @@ a {
   display: flex;
 }
 
-.workList li:not(:last-child) {
-  margin-bottom: 1rem;
+.workWrapper{
+  padding: 2.5rem 7.5rem;
+  background: rgb(10, 10, 10);
+}
+
+.workCardList{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25vw, 1fr));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.workCard{
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid #5D5F61;
+  border-radius: 0.5rem;
+}
+
+.workTitle{
+  color: white;
+  padding: 8px 16px;
+  margin: 0;
+  margin-block-start: 0;
+  font-weight: 500;
+}
+
+.workCard div img{
+  height: 35vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.workbtn {
+  text-align: center;
+  color: white;
+  border: 1px solid #FFFFFF;
+  padding: 0.75rem 1.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 1rem;
+  background: transparent;
+}
+
+.workbtn:hover{
+  background: rgb(17, 90, 172);
 }
 
 @media only screen and (max-width: 500px) {
+  .workWrapper{
+    padding: 1rem;
+    background: rgb(10, 10, 10);
+  }
+
+  .workCardList{
+    grid-template-columns: repeat(auto-fit, minmax(80vw, 1fr));
+    padding: 1rem 0 2.5rem 0;
+  }
+
+  .workCard div img{
+    height: 20vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
   .header {
     height: 20vh;
   }
