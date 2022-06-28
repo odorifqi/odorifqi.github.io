@@ -25,10 +25,13 @@ function Main() {
   return (
     <div className={s.main}>
       <section className={s.intro}>
-        Indonesia-based with a background in computer science, passionate about
-        UX design. Currently on a fantastic journey of exploring and learning
-        digital product design. Looking ahead to a further future, one small
-        step at a time. Thanks for visiting!
+        I'm Rifqi, a computer science graduate passionate about UI/UX design. I
+        learn design basics such as color, typography, and whitespace. I
+        familiarized myself with UI design patterns and UX design processes and
+        principles. I enjoy the continuing process of empathizing with users,
+        defining their needs, and start to come up with ideas for design
+        solutions. I also enjoying front-end web development. Thanks for
+        visiting!
       </section>
     </div>
   );
