@@ -30,8 +30,7 @@ function Main() {
         familiarized myself with UI design patterns and UX design processes and
         principles. I enjoy the continuing process of empathizing with users,
         defining their needs, and start to come up with ideas for design
-        solutions. I also enjoying front-end web development. Thanks for
-        visiting!
+        solutions. Thanks for visiting!
       </section>
     </div>
   );
