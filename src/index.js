@@ -25,12 +25,13 @@ function Main() {
   return (
     <div className={s.main}>
       <section className={s.intro}>
-        I'm Rifqi, a computer science graduate passionate about UI/UX design. I
-        learn design basics such as color, typography, and whitespace. I
+        I’m Rifqi, computer science graduate passionate about UI/UX design. I
         familiarized myself with UI design patterns and UX design processes and
-        principles. I enjoy the continuing process of empathizing with users,
+        principles. I learn design basics such as color, typography, and
+        whitespace. I enjoy the continuing process of empathizing with users,
         defining their needs, and start to come up with ideas for design
-        solutions. Thanks for visiting!
+        solutions. I continuously strive to leverage my skills and knowledge to
+        craft visually appealing and intuitively functional digital interfaces.
       </section>
     </div>
   );
