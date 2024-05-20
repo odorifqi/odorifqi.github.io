@@ -34,7 +34,14 @@ code {
 }
 
 .main > section {
-  padding: 2.5rem;
+  padding: 2rem 15rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .main > section {
+    padding: 2.5rem;
+  }
+  
 }
 
 .title {
