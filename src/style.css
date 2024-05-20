@@ -19,7 +19,7 @@ code {
 .header {
   background-color: rgb(10, 10, 10);
   display: flex;
-  flex-direction: column;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
   height: 30vh;
@@ -34,7 +34,7 @@ code {
 }
 
 .main > section {
-  padding: 2.5rem 15rem 2.5rem 15rem;
+  padding: 2.5rem;
 }
 
 .title {
@@ -42,7 +42,13 @@ code {
   color: rgb(255, 255, 255);
   text-align: center;
   margin-block-end: 0;
+  margin-block-start: 0;
   font-weight: 400;
+}
+
+.logo {
+  width: 4rem;
+  height: 4rem;
 }
 
 .intro {
@@ -120,7 +126,7 @@ a {
 }
 
 .workWrapper {
-  padding: 2.5rem 7.5rem;
+  padding: 2rem 4rem;
   background: rgb(10, 10, 10);
 }
 
@@ -171,13 +177,13 @@ a {
   background: rgb(17, 90, 172);
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
   .headline {
     margin-block-end: 0.25rem;
   }
 
   .workWrapper {
-    padding: 1rem;
+    padding: 2rem;
     background: rgb(10, 10, 10);
   }
 
