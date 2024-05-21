@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./style.css";
+import s from "./output.css";
 
 function ContactList({ title, url }) {
   return url ? (

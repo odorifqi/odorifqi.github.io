@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./style.css";
+import s from "./output.css";
 import img1 from "./img-thumb/image-6.png";
 import img2 from "./img-thumb/titip.png";
 import img3 from "./img-thumb/shoes.png";
@@ -11,8 +11,8 @@ function WorkCard({ title, url, img, source }) {
   return (
     <div className={s.workCard}>
       <div className={s.cardBody}>
-        <img src={img} />
-        <h3 className={s.workTitle}>{title}</h3>
+        <img src={img} className={s.workImage}/>
+        <div className={s.workTitle}>{title}</div>
       </div>
       <a href={url} className={s.workbtn} target="_blank" rel="noreferrer">
         View in {source}

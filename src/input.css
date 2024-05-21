@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply box-border;
+  /* outline: 1px solid white; */
+}
+
+body {
+  @apply bg-black m-0 ;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  font-family: "Inter", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.mainContainer {
+  @apply px-8 md:px-10 lg:px-16;
+}
+
+.header {
+  @apply bg-[10,10,10] flex gap-4 md:justify-center items-center py-8;
+}
+
+.title {
+  @apply text-2xl md:text-4xl lg:text-6xl text-white font-normal;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+.summary {
+  @apply bg-[10,10,10] flex flex-col justify-center pb-16 md:px-40 lg:px-64 lg:text-2xl text-base text-[#d7dcdf];
+  letter-spacing: 0.05rem;
+}
+
+.logo {
+  @apply w-16 h-16;
+}
+
+.headline {
+  @apply font-[500] text-white mb-4 text-2xl;
+}
+
+.container > ul {
+  @apply p-0 m-0;
+}
+
+.container > ul > li {
+  @apply list-none text-center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contactLink {
+  @apply text-lg;
+  color: rgba(42, 131, 235, 1);
+}
+
+.contactLink:hover {
+  color: rgba(22, 102, 196, 1);
+  background-color: rgb(28, 28, 30);
+}
+
+.footer {
+  @apply pb-16 flex gap-6 flex-col justify-center items-center bg-black;
+}
+
+.githubContainer {
+  @apply flex flex-col md:flex-row md:gap-4 items-center;
+}
+
+.footerText {
+  @apply text-[#776e6e] text-lg flex gap-2 items-end mb-2;
+}
+
+.contactRow {
+  @apply flex flex-col md:flex-row gap-4 flex-wrap lg:justify-center;
+}
+
+.workWrapper {
+  @apply pb-16;
+  background: rgb(10, 10, 10);
+}
+
+.workCardList {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4;
+  justify-content: center;
+}
+
+.cardBody {
+  @apply relative
+}
+
+.workImage {
+  @apply h-40 md:h-60 w-full object-cover;
+}
+
+.workTitle {
+  @apply absolute bottom-0 right-0 left-0 text-white px-4 py-2 m-auto font-[500] bg-black bg-opacity-40;
+}
+
+.workCard {
+  @apply overflow-hidden flex flex-col border-[2px] border-solid border-[#313233] rounded-lg gap-4;
+}
+
+.workbtn {
+  @apply text-center text-white px-6 py-3 text-[1rem] font-[400] m-4 rounded border border-solid border-white;
+}
+
+.workbtn:hover {
+  background: rgb(17, 90, 172);
+}
