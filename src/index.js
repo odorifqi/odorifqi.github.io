@@ -4,7 +4,7 @@ import GitHubButton from "react-github-btn";
 import Contact from "./contact";
 import WorkCardList from "./work";
 import s from "./output.css";
-import logo from "./img-thumb/logo-odo.svg";
+import logo from "./img-thumb/logo-dark.svg";
 
 console.log(`You're in ${process.env.NODE_ENV} mode`);
 

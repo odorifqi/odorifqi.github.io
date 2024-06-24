@@ -599,7 +599,7 @@ body {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
-  font-family: "Inter", sans-serif;
+  font-family: "Work Sans", "Inter", sans-serif;
 }
 
 code {
@@ -637,6 +637,13 @@ code {
 @media (min-width: 768px) {
   .header {
     justify-content: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 }
 
@@ -681,8 +688,8 @@ code {
 
 @media (min-width: 768px) {
   .summary {
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 }
 
@@ -700,17 +707,35 @@ code {
 }
 
 .logo {
-  height: 4rem;
-  width: 4rem;
+  width: 3rem;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo {
+    width: 5rem;
+  }
 }
 
 .headline {
   margin-bottom: 1rem;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   font-weight: 500;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+  .headline {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 .container > ul {

@@ -11,7 +11,7 @@ body {
   @apply bg-black m-0 ;
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
-  font-family: "Inter", sans-serif;
+  font-family: "Work Sans", "Inter", sans-serif;
 }
 
 code {
@@ -23,7 +23,7 @@ code {
 }
 
 .header {
-  @apply bg-[10,10,10] flex gap-4 md:justify-center items-center py-8;
+  @apply bg-[10,10,10] flex gap-4 md:justify-center items-center py-8 lg:py-12;
 }
 
 .title {
@@ -33,16 +33,16 @@ code {
 }
 
 .summary {
-  @apply bg-[10,10,10] flex flex-col justify-center pb-16 md:px-40 lg:px-64 lg:text-2xl text-base text-[#d7dcdf];
+  @apply bg-[10,10,10] flex flex-col justify-center pb-16 md:px-32 lg:px-64 lg:text-2xl text-base text-[#d7dcdf];
   letter-spacing: 0.05rem;
 }
 
 .logo {
-  @apply w-16 h-16;
+  @apply w-12 md:w-16 lg:w-20;
 }
 
 .headline {
-  @apply font-[500] text-white mb-4 text-2xl;
+  @apply font-[500] text-white mb-4 text-xl lg:text-2xl;
 }
 
 .container > ul {
