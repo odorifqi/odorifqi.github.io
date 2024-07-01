@@ -8,7 +8,7 @@
 }
 
 body {
-  @apply bg-black m-0 ;
+  @apply bg-[rgb(10,10,10)] m-0 ;
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
   font-family: "Work Sans", "Inter", sans-serif;
@@ -85,7 +85,6 @@ a {
 
 .workWrapper {
   @apply pb-16;
-  background: rgb(10, 10, 10);
 }
 
 .workCardList {

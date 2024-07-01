@@ -596,7 +596,7 @@ video {
 body {
   margin: 0px;
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(10 10 10 / var(--tw-bg-opacity));
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
   font-family: "Work Sans", "Inter", sans-serif;
@@ -819,7 +819,6 @@ a {
 
 .workWrapper {
   padding-bottom: 4rem;
-  background: rgb(10, 10, 10);
 }
 
 .workCardList {
