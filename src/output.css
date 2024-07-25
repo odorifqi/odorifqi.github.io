@@ -753,14 +753,19 @@ a {
 }
 
 .contactLink {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   font-size: 1.125rem;
   line-height: 1.75rem;
-  color: rgba(42, 131, 235, 1);
+  --tw-text-opacity: 1;
+  color: rgb(42 131 235 / var(--tw-text-opacity));
 }
 
 .contactLink:hover {
-  color: rgba(22, 102, 196, 1);
-  background-color: rgb(28, 28, 30);
+  --tw-bg-opacity: 1;
+  background-color: rgb(42 131 235 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .footer {
@@ -769,8 +774,6 @@ a {
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
   padding-bottom: 4rem;
 }
 
@@ -882,7 +885,6 @@ a {
   flex-direction: column;
   gap: 1rem;
   overflow: hidden;
-  border-radius: 0.5rem;
   border-width: 2px;
   border-style: solid;
   --tw-border-opacity: 1;
@@ -891,11 +893,10 @@ a {
 
 .workbtn {
   margin: 1rem;
-  border-radius: 0.25rem;
   border-width: 1px;
   border-style: solid;
   --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+  border-color: rgb(9 48 93 / var(--tw-border-opacity));
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: 0.75rem;
@@ -904,9 +905,13 @@ a {
   font-size: 1rem;
   font-weight: 400;
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(42 131 235 / var(--tw-text-opacity));
 }
 
 .workbtn:hover {
-  background: rgb(17, 90, 172);
+  border-style: none;
+  --tw-bg-opacity: 1;
+  background-color: rgb(42 131 235 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(10 10 10 / var(--tw-text-opacity));
 }

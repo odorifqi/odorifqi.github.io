@@ -56,10 +56,9 @@ function Footer() {
         <GitHubButton
           href="https://github.com/odorifqi"
           data-size="large"
-          aria-label="Follow @odorifqi on GitHub"
-        >
-          Follow @odorifqi
-        </GitHubButton>
+          data-text='@odorifqi'
+          title='This is my github account'
+        />
       </div>
     </footer>
   );

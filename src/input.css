@@ -8,7 +8,7 @@
 }
 
 body {
-  @apply bg-[rgb(10,10,10)] m-0 ;
+  @apply bg-[#0a0a0a] m-0 ;
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
   font-family: "Work Sans", "Inter", sans-serif;
@@ -58,17 +58,15 @@ a {
 }
 
 .contactLink {
-  @apply text-lg;
-  color: rgba(42, 131, 235, 1);
+  @apply text-lg px-2 text-[#2a83eb];
 }
 
 .contactLink:hover {
-  color: rgba(22, 102, 196, 1);
-  background-color: rgb(28, 28, 30);
+  @apply text-black bg-[#2a83eb];
 }
 
 .footer {
-  @apply pb-16 flex gap-6 flex-col justify-center items-center bg-black;
+  @apply pb-16 flex gap-6 flex-col justify-center items-center;
 }
 
 .githubContainer {
@@ -105,13 +103,13 @@ a {
 }
 
 .workCard {
-  @apply overflow-hidden flex flex-col border-[2px] border-solid border-[#313233] rounded-lg gap-4;
+  @apply overflow-hidden flex flex-col border-[2px] border-solid border-[#313233] gap-4;
 }
 
 .workbtn {
-  @apply text-center text-white px-6 py-3 text-[1rem] font-[400] m-4 rounded border border-solid border-white;
+  @apply text-center text-[#2a83eb] px-6 py-3 text-[1rem] font-[400] m-4 border border-solid border-[#09305d];
 }
 
 .workbtn:hover {
-  background: rgb(17, 90, 172);
+  @apply bg-[#2a83eb] text-[#0a0a0a] border-none;
 }
