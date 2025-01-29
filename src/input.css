@@ -3,113 +3,113 @@
 @tailwind utilities;
 
 * {
-  @apply box-border;
-  /* outline: 1px solid white; */
+    @apply box-border;
+    /* outline: 1px solid white; */
 }
 
 body {
-  @apply bg-[#0a0a0a] m-0 ;
-  /* -webkit-font-smoothing: antialiased;
+    @apply bg-[#0a0a0a] m-0;
+    /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
-  font-family: "Work Sans", "Inter", sans-serif;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
 }
 
 .mainContainer {
-  @apply px-8 md:px-10 lg:px-16;
+    @apply px-4 md:px-10 lg:px-16;
 }
 
 .header {
-  @apply bg-[10,10,10] flex gap-4 md:justify-center items-center py-8 lg:py-12;
+    @apply bg-[10,10,10] flex gap-2 md:gap-4 md:justify-center items-center py-8 lg:py-12;
+}
+
+.titleContainer {
+    @apply flex gap-1 md:gap-3 items-center;
 }
 
 .title {
-  @apply text-2xl md:text-4xl lg:text-6xl text-white font-normal;
-  margin-block-end: 0;
-  margin-block-start: 0;
+    @apply text-2xl md:text-4xl lg:text-6xl text-white font-semibold;
+}
+
+.pronounce {
+    @apply text-xl md:text-3xl lg:text-5xl text-gray-400 font-light;
+    font-family: 'Open Sans', 'Inter', sans-serif;
 }
 
 .summary {
-  @apply bg-[10,10,10] flex flex-col justify-center pb-16 md:px-32 lg:px-64 lg:text-2xl text-base text-[#d7dcdf];
-  letter-spacing: 0.05rem;
+    @apply bg-[10,10,10] flex flex-col justify-center pb-16 md:px-32 lg:px-64 lg:text-2xl text-base text-[#d7dcdf];
+    letter-spacing: 0.05rem;
 }
 
 .logo {
-  @apply w-12 md:w-16 lg:w-20;
+    @apply w-12 md:w-16 lg:w-20;
 }
 
 .headline {
-  @apply font-[500] text-white mb-4 text-xl lg:text-2xl;
+    @apply font-medium text-white mb-4 text-lg lg:text-xl;
 }
 
-.container > ul {
-  @apply p-0 m-0;
+.contactList {
+    @apply p-0 m-0 flex flex-col md:flex-row gap-4 flex-wrap lg:justify-center;
 }
 
-.container > ul > li {
-  @apply list-none text-center;
+.contactList > li {
+    @apply list-none text-center;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .contactLink {
-  @apply text-lg px-2 text-[#2a83eb];
-}
-
-.contactLink:hover {
-  @apply text-black bg-[#2a83eb];
+    @apply px-2 text-[#2a83eb] hover:text-[#0A0A0A] hover:bg-[#2a83eb];
 }
 
 .footer {
-  @apply pb-16 flex gap-6 flex-col justify-center items-center;
+    @apply pb-16 flex gap-6 flex-col justify-center items-center;
 }
 
 .githubContainer {
-  @apply flex flex-col md:flex-row md:gap-4 items-center;
+    @apply flex flex-col md:flex-row md:gap-4 items-center;
 }
 
-.footerText {
-  @apply text-[#776e6e] text-lg flex gap-2 items-end mb-2;
-}
-
-.contactRow {
-  @apply flex flex-col md:flex-row gap-4 flex-wrap lg:justify-center;
+.githubText {
+    @apply text-[#776e6e] flex gap-2 items-end mb-2 h-5;
 }
 
 .workWrapper {
-  @apply pb-16;
+    @apply pb-16;
 }
 
 .workCardList {
-  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4;
-  justify-content: center;
-}
-
-.cardBody {
-  @apply relative
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4;
+    justify-content: center;
 }
 
 .workImage {
-  @apply h-40 md:h-60 w-full object-cover;
+    @apply h-40 md:h-60 w-full object-cover;
 }
 
 .workTitle {
-  @apply absolute bottom-0 right-0 left-0 text-white px-4 py-2 m-auto font-[500] bg-black bg-opacity-40;
+    @apply text-white font-medium bg-black bg-opacity-40 truncate;
 }
 
 .workCard {
-  @apply overflow-hidden flex flex-col border-[2px] border-solid border-[#313233] gap-4;
+    @apply overflow-hidden flex flex-col border border-solid border-[#252627];
 }
+
+.cardBody {
+    @apply relative;
+}
+
+.cardFooter {
+    @apply px-3 pt-2 pb-3 flex flex-col gap-3
+}
+
 
 .workbtn {
-  @apply text-center text-[#2a83eb] px-6 py-3 text-[1rem] font-[400] m-4 border border-solid border-[#09305d];
+    @apply text-[#2a83eb] px-4 py-2 w-fit text-sm font-semibold border border-solid border-[#09305d] flex gap-1 items-center hover:bg-[#2a83eb] hover:text-[#0a0a0a] hover:border-none;
 }
 
-.workbtn:hover {
-  @apply bg-[#2a83eb] text-[#0a0a0a] border-none;
+.iconArrow {
+    @apply w-5 h-5
 }
