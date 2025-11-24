@@ -1,5 +1,5 @@
 {
-  "name": "case-studies",
+  "name": "odorifqi-dev",
   "version": "1.0.0",
   "description": "This is my webpage for my UI/UX explorations",
   "main": "index.js",
@@ -37,14 +37,12 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "axios": "^0.24.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-github-btn": "^1.2.1",
     "react-icons": "^5.4.0",
     "react-slick": "^0.29.0",
-    "regenerator-runtime": "^0.13.9",
-    "slick-carousel": "^1.8.1"
+    "regenerator-runtime": "^0.13.9"
   },
   "repository": {
     "type": "git",
