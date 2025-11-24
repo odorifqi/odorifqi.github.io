@@ -70,6 +70,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: "Muhammad Rifqi | Personal Page",
       template: path.resolve(__dirname, "..", "./src/index.html"),
+      favicon: "./public/favicon.ico"
     }),
   ],
   output: {
