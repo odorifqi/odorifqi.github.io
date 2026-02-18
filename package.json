@@ -1,55 +1,40 @@
 {
-  "name": "odorifqi-dev",
-  "version": "1.0.0",
-  "description": "This is my webpage for my UI/UX explorations",
-  "main": "index.js",
+  "name": "odorifqi.github.io",
+  "version": "2.0.0",
+  "description": "Personal portfolio of Muhammad Rifqi - Product Designer & Software Engineer",
+  "private": true,
   "scripts": {
-    "start": "webpack serve --config build-utils/webpack.config.js --env env=dev",
-    "build": "webpack --config build-utils/webpack.config.js --env env=prod",
-    "build:analyze": "npm run build -- --env addon=bundleanalyze",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "portfolio",
+    "nextjs",
+    "react"
+  ],
+  "author": "Muhammad Rifqi",
   "license": "ISC",
-  "devDependencies": {
-    "@babel/core": "^7.16.0",
-    "@babel/preset-env": "^7.16.4",
-    "@babel/preset-react": "^7.16.0",
-    "babel-loader": "^8.2.3",
-    "clean-webpack-plugin": "^4.0.0",
-    "css-loader": "^6.5.1",
-    "dotenv-webpack": "^7.0.3",
-    "eslint": "^8.3.0",
-    "eslint-plugin-react": "^7.27.1",
-    "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.5.0",
-    "react-hot-loader": "^4.13.0",
-    "sass": "^1.43.4",
-    "sass-loader": "^12.3.0",
-    "style-loader": "^3.3.1",
-    "tailwindcss": "^3.4.3",
-    "url-loader": "^4.1.1",
-    "webpack": "^5.64.2",
-    "webpack-bundle-analyzer": "^4.5.0",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.5.0",
-    "webpack-merge": "^5.8.0"
-  },
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-github-btn": "^1.2.1",
-    "react-icons": "^5.4.0",
-    "react-slick": "^0.29.0",
-    "regenerator-runtime": "^0.13.9"
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.34.2",
+    "gray-matter": "^4.0.3",
+    "next": "^16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-icons": "^5.5.0",
+    "tailwind-merge": "^3.4.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/odorifqi/odorifqi.github.io.git"
-  },
-  "bugs": {
-    "url": "https://github.com/odorifqi/odorifqi.github.io/issues"
-  },
-  "homepage": "https://github.com/odorifqi/odorifqi.github.io#readme"
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.24",
+    "eslint": "^10.0.0",
+    "eslint-config-next": "^16.1.6",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.9.3"
+  }
 }
