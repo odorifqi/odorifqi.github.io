@@ -21,10 +21,13 @@ function App() {
 function Summary() {
     return (
         <section className={ s.summary }>
-            Product designer and software engineer who thrives on crafting immersive digital app experiences.
-            Proficient both in UI/UX design and front-end development to translate design concepts into responsive and interactive apps.
-            Collaborative professional with a keen eye for detail and a passion for staying updated with industry trends and technologies
-            to deliver exceptional user experiences.
+            <span>
+                Design Engineer who owns the full product loop from Figma prototype to production, eliminating the design-to-engineering handoff entirely.
+                Experienced both in UX/UI design and front-end development to translate design concepts into responsive and interactive apps.
+                Over 3 years in the banking industry I've designed and shipped enterprise banking applications used by 1,000+ employees
+                as the sole owner of the UX/UI design and lead on the frontend development. I build the design system and the React component library it ships against,
+                so what's designed is exactly what gets built. No spec drift, no translation loss, faster cycles.
+            </span>
         </section >
     );
 }
