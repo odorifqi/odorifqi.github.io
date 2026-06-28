@@ -22,10 +22,15 @@ function Summary() {
     return (
         <section className={ s.summary }>
             <span>
-                Design Engineer who owns the full product loop from Figma prototype to production, eliminating the design-to-engineering handoff entirely.
+                Design Engineer who owns the full product loop from Figma to production, eliminating the design-to-engineering handoff entirely.
                 Experienced both in UX/UI design and front-end development to translate design concepts into responsive and interactive apps.
+            </span>
+            <span>
                 Over 3 years in the banking industry I've designed and shipped enterprise banking applications used by 1,000+ employees
-                as the sole owner of the UX/UI design and lead on the frontend development. I build the design system and the React component library it ships against,
+                as the UX/UI designer and frontend developer.
+            </span>
+            <span>
+                I build the design system and the React component library it ships against,
                 so what's designed is exactly what gets built. No spec drift, no translation loss, faster cycles.
             </span>
         </section >

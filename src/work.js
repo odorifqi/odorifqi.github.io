@@ -6,6 +6,8 @@ import img3 from "./img-thumb/shoes.png";
 import img4 from "./img-thumb/sia.png";
 import img5 from "./img-thumb/fgdd.png";
 import img6 from "./img-thumb/chatapp.png";
+import img7 from "./img-thumb/design-system.png";
+import img8 from "./img-thumb/hsb-hsv.png";
 import { TbArrowUpRight } from "react-icons/tb";
 
 function WorkCard({ title, url, img, source }) {
@@ -31,9 +33,21 @@ export default function WorkCardList() {
             <h2 className={ s.headline }>Recent works</h2>
             <div className={ s.workCardList }>
                 <WorkCard
+                    img={ img7 }
+                    title="Case study: Designing & building a Design System"
+                    url="https://drive.google.com/file/d/17NMcTe4_l3G-LGpU7hmjuS4bTCAP5nhM/view?usp=drive_link"
+                    source={ "Google Drive" }
+                />
+                <WorkCard
                     img={ img1 }
                     title="Case study: learn, create, mentor in workout app"
                     url="https://bootcamp.uxdesign.cc/case-study-learn-create-mentor-in-workout-app-292d9509a8b9"
+                    source={ "Medium" }
+                />
+                <WorkCard
+                    img={ img8 }
+                    title="Journal: What I learn about HSB/HSV Color System"
+                    url="https://medium.com/design-bootcamp/hsb-hsv-color-system-d14697d7c485?sharedUserId=odorifqi"
                     source={ "Medium" }
                 />
                 <WorkCard
